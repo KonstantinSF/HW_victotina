@@ -117,7 +117,10 @@ namespace Lesson1_pw223
         {
             do
             {
-                WriteLine("Для выбора игры Викторина нажмите \"1\"\nДля выбора игры Угадай число нажмите \"2\"\nДля выхода Esc...");
+                WriteLine("\t\tМЕНЮ\n" +
+                    "Для выбора игры Викторина нажмите \"1\"\n" +
+                    "Для выбора игры Угадай число нажмите \"2\"\n" +
+                    "Для выхода Esc...");
                 ConsoleKeyInfo PressedKey = Console.ReadKey();
                 WriteLine();
                 if (PressedKey.KeyChar == '1') startQuiz();
